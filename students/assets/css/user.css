@@ -1,0 +1,145 @@
+body{
+	background-attachment: fixed;
+	background-image: url(../img/adminbg.jpg);
+}
+
+#mainbody {
+width:90%;
+border-left:2px groove #999;	
+border-right:2px groove #999;
+border-bottom:2px groove #999;
+background-color:#FFF;
+}
+
+.breadcrumb{
+  text-align:center;
+  background-color:transparent;
+  border-bottom:1px solid #eee;
+  padding-top:12px;
+  padding-bottom:12px;
+  margin-bottom:40px;
+}
+
+nav.navbar.navbar-default{
+  margin-bottom:0px;
+}
+
+
+@media (min-width:992px) {
+  .product h2{
+    margin-top:0;
+  }
+}
+
+.navbar .navbar-brand{
+  font-size:24px;
+  line-height:18px;
+}
+
+.reviewer-name{
+  margin-right:10px;
+}
+
+.site-footer{
+  padding:20px 0;
+  text-align:center;
+}
+
+@media (min-width:768px) {
+  .site-footer h5{
+    text-align:left;
+  }
+}
+
+.site-footer h5{
+  color:inherit;
+  font-size:16px;
+}
+
+.site-footer .social-icons a:hover{
+  opacity:1;
+}
+
+.site-footer .social-icons a{
+  display:inline-block;
+  width:32px;
+  border:none;
+  font-size:20px;
+  border-radius:50%;
+  margin:4px;
+  color:#fff;
+  text-align:center;
+  background-color:#798FA5;
+  height:32px;
+  opacity:0.8;
+  line-height:32px;
+}
+
+@media (min-width:768px) {
+  .site-footer .social-icons{
+    text-align:right;
+  }
+}
+
+.btn.write-review{
+  float:right;
+  margin-top:-6px;
+}
+#myclasses,#classpost{
+   height:350px;
+   overflow:auto;
+
+}
+
+#myclasses table,#classpost ul{
+border:2px double #666;	
+font-size:.9em;	
+padding:15px;
+background-color:#fff;
+box-shadow:2px 2px 2px #03F;
+}
+#classpost li{
+list-style:none;
+}
+
+#myclasses li{
+	font-size:.9em;
+	list-style:none;
+}
+#myclasses button {
+
+}
+
+#publicpost{
+height:300px;
+overflow:auto;	
+}
+
+#publicpost .media{
+
+padding:10px;
+border:1px #CCC solid;
+margin:5px;
+	
+}
+
+#allcomments{
+height:400px;
+font-size:.9em;
+
+overflow:auto;
+	
+}
+#allcomments .media{
+border:1px solid #CCC;	
+padding:10px;
+margin:0;
+}
+
+.transcriptdiv{
+height:800px;
+background:url(../img/transcriptbg.png);
+box-shadow:2px 2px 2px 2px #000;	
+}
+
+

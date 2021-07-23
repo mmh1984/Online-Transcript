@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+//custom css
+
+.logo1 {
+width:100px;	
+	
+}
+
+.smallimg{
+width:10px;	
+}
+
+.customlink{
+background:#036;
+font-size:.9em;
+color:#fff;	
+text-align:center;
+}
+
+.nomargin {
+margin:0;
+padding:0;	
+}
+.header{
+background-color:#003;	
+color:#FFF;
+}
+
+.spacersmall{
+height:20px;
+margin:0;
+padding:0;
+
+}
+.paddingsmall {
+padding:20px;	
+}
+
+.iconsmall img {
+width:20%;	
+}
+
+#parameter{
+  padding:0;	
+  margin:0;
+  border-collapse:collapse;
+  font-size:.8em;
+}
+
+.smallfont {
+font-size:.9em;	
+}
+
+#classSelected ul{
+font-size:.8em;	
+list-style:none;
+text-align:left;
+margin:0;	
+padding:0;
+color:#036;
+}
+#classSelected ul li {
+margin:0;
+}
+
+#classSelected table {
+font-size:.8em;
+}
+
+.shadow{
+box-shadow:3px 3px 3px 2px #333;	
+}
+
+.smallselect{
+font-size:.9em;	
+width:100px;
+padding:5px;	
+}
+
+.mediumselect{
+font-size:.9em;	
+width:150px;
+padding:5px;	
+}
+.largeselect{
+font-size:.9em;	
+width:250px;
+padding:5px;	
+}
+
+#studentlist {
+height:500px;
+overflow-y:auto;
+font-size:.8em;
+	
+}
+#bodyloader{
+margin:10% auto;
+display:block;	
+}
+
+#divparameter {
+	font-size:1em;
+
+}
+
+#divparameter table {
+	
+	width:100%;
+	padding:10px;
+}
+.nodisplay {
+display:none;	
+}
+
